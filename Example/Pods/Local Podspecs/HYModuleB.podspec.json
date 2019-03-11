@@ -1,0 +1,33 @@
+{
+  "name": "HYModuleB",
+  "version": "0.2.1",
+  "summary": "工程示例B",
+  "description": "TODO: 工程示例B,需要时可进行引用，在组件化进入正轨后，删除工程",
+  "homepage": "http://git.houyicloud.com/wangyu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangyu1001@live.cn": "wangyu@houyicloud.com"
+  },
+  "source": {
+    "git": "http://git.houyicloud.com/wangyu/hymoduleb.git",
+    "tag": "0.2.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HYModuleB/Classes/**/*",
+  "dependencies": {
+    "HYComponentManager": [
+
+    ],
+    "HYModulePrt": [
+
+    ],
+    "HYModuleA": [
+
+    ]
+  }
+}

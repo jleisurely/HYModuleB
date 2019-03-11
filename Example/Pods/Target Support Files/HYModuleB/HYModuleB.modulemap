@@ -1,0 +1,6 @@
+framework module HYModuleB {
+  umbrella header "HYModuleB-umbrella.h"
+
+  export *
+  module * { export * }
+}

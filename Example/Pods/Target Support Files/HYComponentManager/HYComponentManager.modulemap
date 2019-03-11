@@ -1,0 +1,6 @@
+framework module HYComponentManager {
+  umbrella header "HYComponentManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

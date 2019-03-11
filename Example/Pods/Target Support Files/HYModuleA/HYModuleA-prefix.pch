@@ -1,0 +1,17 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import <HYComponentManager/HYCMConnectorPrt.h>
+#import <HYModulePrt/HYModuleServicePrt.h>
+#import <HYModulePrt/HYModuleItemPrt.h>
+#import <HYComponentManager/HYComponentManager.h>
+#import <HYModulePrt/HYModuleServicePrt.h>
